@@ -1,0 +1,3734 @@
+{
+  "index.html": {
+    "320": {
+      "inner": 320,
+      "vw": 305,
+      "sw": 305,
+      "overflow": 0,
+      "desktop": "none",
+      "mobile": "block",
+      "heroH": 436,
+      "cat": "none",
+      "offenders": [
+        {
+          "tag": "ul",
+          "cls": "",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 69,
+          "l": -240,
+          "r": -171
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 11,
+          "l": -239,
+          "r": -228
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 66,
+          "l": -240,
+          "r": -174
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 62,
+          "l": -240,
+          "r": -178
+        }
+      ]
+    },
+    "375": {
+      "inner": 375,
+      "vw": 360,
+      "sw": 360,
+      "overflow": 0,
+      "desktop": "none",
+      "mobile": "block",
+      "heroH": 436,
+      "cat": "none",
+      "offenders": [
+        {
+          "tag": "div",
+          "cls": "mmpanels",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "div",
+          "cls": "mmpanel mmopened mmcurrent",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "ul",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "mm-close-parent",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "mm-close",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 69,
+          "l": -216,
+          "r": -147
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 11,
+          "l": -239,
+          "r": -228
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 66,
+          "l": -216,
+          "r": -150
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        }
+      ]
+    },
+    "768": {
+      "inner": 768,
+      "vw": 753,
+      "sw": 761,
+      "overflow": 8,
+      "desktop": "none",
+      "mobile": "block",
+      "heroH": 436,
+      "cat": "none",
+      "offenders": [
+        {
+          "tag": "div",
+          "cls": "mmpanels",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "div",
+          "cls": "mmpanel mmopened mmcurrent",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "ul",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "mm-close-parent",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "mm-close",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 69,
+          "l": -216,
+          "r": -147
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 11,
+          "l": -239,
+          "r": -228
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 66,
+          "l": -216,
+          "r": -150
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        }
+      ]
+    },
+    "1024": {
+      "inner": 1024,
+      "vw": 1009,
+      "sw": 1009,
+      "overflow": 0,
+      "desktop": "none",
+      "mobile": "block",
+      "heroH": 436,
+      "cat": "none",
+      "offenders": [
+        {
+          "tag": "div",
+          "cls": "mmpanels",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "div",
+          "cls": "mmpanel mmopened mmcurrent",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "ul",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "mm-close-parent",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "mm-close",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 69,
+          "l": -216,
+          "r": -147
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 11,
+          "l": -239,
+          "r": -228
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 66,
+          "l": -216,
+          "r": -150
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        }
+      ]
+    },
+    "1280": {
+      "inner": 1280,
+      "vw": 1265,
+      "sw": 1265,
+      "overflow": 0,
+      "desktop": "block",
+      "mobile": "none",
+      "heroH": 436,
+      "cat": "block",
+      "offenders": [
+        {
+          "tag": "div",
+          "cls": "mmpanels",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "div",
+          "cls": "mmpanel mmopened mmcurrent",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "ul",
+          "cls": "",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "li",
+          "cls": "mm-close-parent",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "a",
+          "cls": "mm-close",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 69,
+          "l": -216,
+          "r": -147
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 11,
+          "l": -239,
+          "r": -228
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 66,
+          "l": -216,
+          "r": -150
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        }
+      ]
+    }
+  },
+  "cart.html": {
+    "320": {
+      "inner": 320,
+      "vw": 305,
+      "sw": 305,
+      "overflow": 0,
+      "desktop": "none",
+      "mobile": "block",
+      "heroH": null,
+      "cat": null,
+      "offenders": [
+        {
+          "tag": "div",
+          "cls": "mmpanels",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "div",
+          "cls": "mmpanel mmopened mmcurrent",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "ul",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "mm-close-parent",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "mm-close",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 69,
+          "l": -216,
+          "r": -147
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 11,
+          "l": -239,
+          "r": -228
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 66,
+          "l": -216,
+          "r": -150
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        }
+      ]
+    },
+    "375": {
+      "inner": 375,
+      "vw": 360,
+      "sw": 360,
+      "overflow": 0,
+      "desktop": "none",
+      "mobile": "block",
+      "heroH": null,
+      "cat": null,
+      "offenders": [
+        {
+          "tag": "div",
+          "cls": "mmpanels",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "div",
+          "cls": "mmpanel mmopened mmcurrent",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "ul",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "mm-close-parent",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "mm-close",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 69,
+          "l": -216,
+          "r": -147
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 11,
+          "l": -239,
+          "r": -228
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 66,
+          "l": -216,
+          "r": -150
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        }
+      ]
+    },
+    "768": {
+      "inner": 768,
+      "vw": 753,
+      "sw": 753,
+      "overflow": 0,
+      "desktop": "none",
+      "mobile": "block",
+      "heroH": null,
+      "cat": null,
+      "offenders": [
+        {
+          "tag": "div",
+          "cls": "mmpanels",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "div",
+          "cls": "mmpanel mmopened mmcurrent",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "ul",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "mm-close-parent",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "mm-close",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 69,
+          "l": -216,
+          "r": -147
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 11,
+          "l": -239,
+          "r": -228
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 66,
+          "l": -216,
+          "r": -150
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        }
+      ]
+    },
+    "1024": {
+      "inner": 1024,
+      "vw": 1009,
+      "sw": 1009,
+      "overflow": 0,
+      "desktop": "none",
+      "mobile": "block",
+      "heroH": null,
+      "cat": null,
+      "offenders": [
+        {
+          "tag": "div",
+          "cls": "mmpanels",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "div",
+          "cls": "mmpanel mmopened mmcurrent",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "ul",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "mm-close-parent",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "mm-close",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 69,
+          "l": -216,
+          "r": -147
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 11,
+          "l": -239,
+          "r": -228
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 66,
+          "l": -216,
+          "r": -150
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        }
+      ]
+    },
+    "1280": {
+      "inner": 1280,
+      "vw": 1265,
+      "sw": 1265,
+      "overflow": 0,
+      "desktop": "block",
+      "mobile": "none",
+      "heroH": null,
+      "cat": null,
+      "offenders": [
+        {
+          "tag": "div",
+          "cls": "mmpanels",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "div",
+          "cls": "mmpanel mmopened mmcurrent",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "ul",
+          "cls": "",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "li",
+          "cls": "mm-close-parent",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "a",
+          "cls": "mm-close",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 69,
+          "l": -216,
+          "r": -147
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 11,
+          "l": -239,
+          "r": -228
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 66,
+          "l": -216,
+          "r": -150
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        }
+      ]
+    }
+  },
+  "checkout.html": {
+    "320": {
+      "inner": 320,
+      "vw": 305,
+      "sw": 305,
+      "overflow": 0,
+      "desktop": "none",
+      "mobile": "block",
+      "heroH": null,
+      "cat": null,
+      "offenders": [
+        {
+          "tag": "div",
+          "cls": "mmpanels",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "div",
+          "cls": "mmpanel mmopened mmcurrent",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "ul",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "mm-close-parent",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "mm-close",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 69,
+          "l": -216,
+          "r": -147
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 11,
+          "l": -239,
+          "r": -228
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 66,
+          "l": -216,
+          "r": -150
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        }
+      ]
+    },
+    "375": {
+      "inner": 375,
+      "vw": 360,
+      "sw": 360,
+      "overflow": 0,
+      "desktop": "none",
+      "mobile": "block",
+      "heroH": null,
+      "cat": null,
+      "offenders": [
+        {
+          "tag": "div",
+          "cls": "mmpanels",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "div",
+          "cls": "mmpanel mmopened mmcurrent",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "ul",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "mm-close-parent",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "mm-close",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 69,
+          "l": -216,
+          "r": -147
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 11,
+          "l": -239,
+          "r": -228
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 66,
+          "l": -216,
+          "r": -150
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        }
+      ]
+    },
+    "768": {
+      "inner": 768,
+      "vw": 753,
+      "sw": 753,
+      "overflow": 0,
+      "desktop": "none",
+      "mobile": "block",
+      "heroH": null,
+      "cat": null,
+      "offenders": [
+        {
+          "tag": "div",
+          "cls": "mmpanels",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "div",
+          "cls": "mmpanel mmopened mmcurrent",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "ul",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "mm-close-parent",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "mm-close",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 69,
+          "l": -216,
+          "r": -147
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 11,
+          "l": -239,
+          "r": -228
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 66,
+          "l": -216,
+          "r": -150
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        }
+      ]
+    },
+    "1024": {
+      "inner": 1024,
+      "vw": 1009,
+      "sw": 1009,
+      "overflow": 0,
+      "desktop": "none",
+      "mobile": "block",
+      "heroH": null,
+      "cat": null,
+      "offenders": [
+        {
+          "tag": "div",
+          "cls": "mmpanels",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "div",
+          "cls": "mmpanel mmopened mmcurrent",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "ul",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "mm-close-parent",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "mm-close",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 69,
+          "l": -216,
+          "r": -147
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 11,
+          "l": -239,
+          "r": -228
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 66,
+          "l": -216,
+          "r": -150
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        }
+      ]
+    },
+    "1280": {
+      "inner": 1280,
+      "vw": 1265,
+      "sw": 1265,
+      "overflow": 0,
+      "desktop": "block",
+      "mobile": "none",
+      "heroH": null,
+      "cat": null,
+      "offenders": [
+        {
+          "tag": "div",
+          "cls": "mmpanels",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "div",
+          "cls": "mmpanel mmopened mmcurrent",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "ul",
+          "cls": "",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "li",
+          "cls": "mm-close-parent",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "a",
+          "cls": "mm-close",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 69,
+          "l": -216,
+          "r": -147
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 11,
+          "l": -239,
+          "r": -228
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 66,
+          "l": -216,
+          "r": -150
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        }
+      ]
+    }
+  },
+  "pages/contact.html": {
+    "320": {
+      "inner": 320,
+      "vw": 305,
+      "sw": 305,
+      "overflow": 0,
+      "desktop": "none",
+      "mobile": "block",
+      "heroH": null,
+      "cat": null,
+      "offenders": [
+        {
+          "tag": "div",
+          "cls": "mmpanels",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "div",
+          "cls": "mmpanel mmopened mmcurrent",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "ul",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "mm-close-parent",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "mm-close",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 69,
+          "l": -216,
+          "r": -147
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 11,
+          "l": -239,
+          "r": -228
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 66,
+          "l": -216,
+          "r": -150
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        }
+      ]
+    },
+    "375": {
+      "inner": 375,
+      "vw": 360,
+      "sw": 360,
+      "overflow": 0,
+      "desktop": "none",
+      "mobile": "block",
+      "heroH": null,
+      "cat": null,
+      "offenders": [
+        {
+          "tag": "div",
+          "cls": "mmpanels",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "div",
+          "cls": "mmpanel mmopened mmcurrent",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "ul",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "mm-close-parent",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "mm-close",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 69,
+          "l": -216,
+          "r": -147
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 11,
+          "l": -239,
+          "r": -228
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 66,
+          "l": -216,
+          "r": -150
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        }
+      ]
+    },
+    "768": {
+      "inner": 768,
+      "vw": 753,
+      "sw": 753,
+      "overflow": 0,
+      "desktop": "none",
+      "mobile": "block",
+      "heroH": null,
+      "cat": null,
+      "offenders": [
+        {
+          "tag": "div",
+          "cls": "mmpanels",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "div",
+          "cls": "mmpanel mmopened mmcurrent",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "ul",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "mm-close-parent",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "mm-close",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 69,
+          "l": -216,
+          "r": -147
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 11,
+          "l": -239,
+          "r": -228
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 66,
+          "l": -216,
+          "r": -150
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        }
+      ]
+    },
+    "1024": {
+      "inner": 1024,
+      "vw": 1009,
+      "sw": 1009,
+      "overflow": 0,
+      "desktop": "none",
+      "mobile": "block",
+      "heroH": null,
+      "cat": null,
+      "offenders": [
+        {
+          "tag": "div",
+          "cls": "mmpanels",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "div",
+          "cls": "mmpanel mmopened mmcurrent",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "ul",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "mm-close-parent",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "mm-close",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 69,
+          "l": -216,
+          "r": -147
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 11,
+          "l": -239,
+          "r": -228
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 66,
+          "l": -216,
+          "r": -150
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        }
+      ]
+    },
+    "1280": {
+      "inner": 1280,
+      "vw": 1265,
+      "sw": 1265,
+      "overflow": 0,
+      "desktop": "block",
+      "mobile": "none",
+      "heroH": null,
+      "cat": null,
+      "offenders": [
+        {
+          "tag": "div",
+          "cls": "mmpanels",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "div",
+          "cls": "mmpanel mmopened mmcurrent",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "ul",
+          "cls": "",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "li",
+          "cls": "mm-close-parent",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "a",
+          "cls": "mm-close",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 69,
+          "l": -216,
+          "r": -147
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 11,
+          "l": -239,
+          "r": -228
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 66,
+          "l": -216,
+          "r": -150
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        }
+      ]
+    }
+  },
+  "collections/all.html": {
+    "320": {
+      "inner": 320,
+      "vw": 305,
+      "sw": 305,
+      "overflow": 0,
+      "desktop": "none",
+      "mobile": "block",
+      "heroH": null,
+      "cat": null,
+      "offenders": [
+        {
+          "tag": "div",
+          "cls": "mmpanels",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "div",
+          "cls": "mmpanel mmopened mmcurrent",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "ul",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "mm-close-parent",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "mm-close",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 69,
+          "l": -216,
+          "r": -147
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 11,
+          "l": -239,
+          "r": -228
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 66,
+          "l": -216,
+          "r": -150
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        }
+      ]
+    },
+    "375": {
+      "inner": 375,
+      "vw": 360,
+      "sw": 360,
+      "overflow": 0,
+      "desktop": "none",
+      "mobile": "block",
+      "heroH": null,
+      "cat": null,
+      "offenders": [
+        {
+          "tag": "div",
+          "cls": "mmpanels",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "div",
+          "cls": "mmpanel mmopened mmcurrent",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "ul",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "mm-close-parent",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "mm-close",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 69,
+          "l": -216,
+          "r": -147
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 11,
+          "l": -239,
+          "r": -228
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 66,
+          "l": -216,
+          "r": -150
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        }
+      ]
+    },
+    "768": {
+      "inner": 768,
+      "vw": 753,
+      "sw": 753,
+      "overflow": 0,
+      "desktop": "none",
+      "mobile": "block",
+      "heroH": null,
+      "cat": null,
+      "offenders": [
+        {
+          "tag": "div",
+          "cls": "mmpanels",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "div",
+          "cls": "mmpanel mmopened mmcurrent",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "ul",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "mm-close-parent",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "mm-close",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 69,
+          "l": -216,
+          "r": -147
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 11,
+          "l": -239,
+          "r": -228
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 66,
+          "l": -216,
+          "r": -150
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        }
+      ]
+    },
+    "1024": {
+      "inner": 1024,
+      "vw": 1009,
+      "sw": 1009,
+      "overflow": 0,
+      "desktop": "none",
+      "mobile": "block",
+      "heroH": null,
+      "cat": null,
+      "offenders": [
+        {
+          "tag": "div",
+          "cls": "mmpanels",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "div",
+          "cls": "mmpanel mmopened mmcurrent",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "ul",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "mm-close-parent",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "mm-close",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 69,
+          "l": -216,
+          "r": -147
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 11,
+          "l": -239,
+          "r": -228
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 66,
+          "l": -216,
+          "r": -150
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        }
+      ]
+    },
+    "1280": {
+      "inner": 1280,
+      "vw": 1265,
+      "sw": 1265,
+      "overflow": 0,
+      "desktop": "block",
+      "mobile": "none",
+      "heroH": null,
+      "cat": null,
+      "offenders": [
+        {
+          "tag": "div",
+          "cls": "mmpanels",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "div",
+          "cls": "mmpanel mmopened mmcurrent",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "ul",
+          "cls": "",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "li",
+          "cls": "mm-close-parent",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "a",
+          "cls": "mm-close",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 69,
+          "l": -216,
+          "r": -147
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 11,
+          "l": -239,
+          "r": -228
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 66,
+          "l": -216,
+          "r": -150
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        }
+      ]
+    }
+  },
+  "products/blue-buffalo-life-protection-formula-adult-dog-food-natural-chicken-recipe.html": {
+    "320": {
+      "inner": 320,
+      "vw": 305,
+      "sw": 305,
+      "overflow": 0,
+      "desktop": "none",
+      "mobile": "block",
+      "heroH": null,
+      "cat": null,
+      "offenders": [
+        {
+          "tag": "div",
+          "cls": "mmpanels",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "div",
+          "cls": "mmpanel mmopened mmcurrent",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "ul",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "mm-close-parent",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "mm-close",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 69,
+          "l": -216,
+          "r": -147
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 11,
+          "l": -239,
+          "r": -228
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 66,
+          "l": -216,
+          "r": -150
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        }
+      ]
+    },
+    "375": {
+      "inner": 375,
+      "vw": 360,
+      "sw": 360,
+      "overflow": 0,
+      "desktop": "none",
+      "mobile": "block",
+      "heroH": null,
+      "cat": null,
+      "offenders": [
+        {
+          "tag": "div",
+          "cls": "mmpanels",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "div",
+          "cls": "mmpanel mmopened mmcurrent",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "ul",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "mm-close-parent",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "mm-close",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 69,
+          "l": -216,
+          "r": -147
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 11,
+          "l": -239,
+          "r": -228
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 66,
+          "l": -216,
+          "r": -150
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        }
+      ]
+    },
+    "768": {
+      "inner": 768,
+      "vw": 753,
+      "sw": 753,
+      "overflow": 0,
+      "desktop": "none",
+      "mobile": "block",
+      "heroH": null,
+      "cat": null,
+      "offenders": [
+        {
+          "tag": "div",
+          "cls": "mmpanels",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "div",
+          "cls": "mmpanel mmopened mmcurrent",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "ul",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "mm-close-parent",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "mm-close",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 69,
+          "l": -216,
+          "r": -147
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 11,
+          "l": -239,
+          "r": -228
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 66,
+          "l": -216,
+          "r": -150
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        }
+      ]
+    },
+    "1024": {
+      "inner": 1024,
+      "vw": 1009,
+      "sw": 1009,
+      "overflow": 0,
+      "desktop": "none",
+      "mobile": "block",
+      "heroH": null,
+      "cat": null,
+      "offenders": [
+        {
+          "tag": "div",
+          "cls": "mmpanels",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "div",
+          "cls": "mmpanel mmopened mmcurrent",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "ul",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "mm-close-parent",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "mm-close",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 69,
+          "l": -216,
+          "r": -147
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 11,
+          "l": -239,
+          "r": -228
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 66,
+          "l": -216,
+          "r": -150
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 255,
+          "l": -270,
+          "r": -15
+        }
+      ]
+    },
+    "1280": {
+      "inner": 1280,
+      "vw": 1265,
+      "sw": 1265,
+      "overflow": 0,
+      "desktop": "block",
+      "mobile": "none",
+      "heroH": null,
+      "cat": null,
+      "offenders": [
+        {
+          "tag": "div",
+          "cls": "mmpanels",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "div",
+          "cls": "mmpanel mmopened mmcurrent",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "ul",
+          "cls": "",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "li",
+          "cls": "mm-close-parent",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "a",
+          "cls": "mm-close",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 69,
+          "l": -216,
+          "r": -147
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "w": 13,
+          "l": -240,
+          "r": -227
+        },
+        {
+          "tag": "path",
+          "cls": "",
+          "w": 11,
+          "l": -239,
+          "r": -228
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "w": 66,
+          "l": -216,
+          "r": -150
+        },
+        {
+          "tag": "li",
+          "cls": "item-categories",
+          "w": 270,
+          "l": -270,
+          "r": 0
+        }
+      ]
+    }
+  }
+}

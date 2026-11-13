@@ -768,19 +768,21 @@ a {
   display: none !important;
 }
 
-/* Force customer reviews into one row on desktop */
+/* Customer reviews: 3 cards across on desktop, clean responsive stack on mobile */
 .tt-blurbsreview-masonry.tt-grid-col-3,
-.obj-data02-wrapper.row-col-3.js-blurbs-slider {
+.obj-data02-wrapper.row-col-3 {
   display: flex !important;
   flex-wrap: nowrap !important;
   align-items: stretch !important;
   gap: 20px;
   margin-left: 0 !important;
   margin-right: 0 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
 }
 
 .tt-blurbsreview-masonry.tt-grid-col-3 .element-item,
-.obj-data02-wrapper.row-col-3.js-blurbs-slider .element-item {
+.obj-data02-wrapper.row-col-3 .element-item {
   width: 33.333% !important;
   max-width: 33.333% !important;
   flex: 0 0 33.333% !important;
@@ -790,18 +792,248 @@ a {
   left: auto !important;
   top: auto !important;
   box-sizing: border-box !important;
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
 }
 
-@media (max-width: 575px) {
+@media (max-width: 768px) {
   .tt-blurbsreview-masonry.tt-grid-col-3,
-  .obj-data02-wrapper.row-col-3.js-blurbs-slider {
+  .obj-data02-wrapper.row-col-3 {
     flex-wrap: wrap !important;
   }
 
   .tt-blurbsreview-masonry.tt-grid-col-3 .element-item,
-  .obj-data02-wrapper.row-col-3.js-blurbs-slider .element-item {
+  .obj-data02-wrapper.row-col-3 .element-item {
     width: 100% !important;
     max-width: 100% !important;
     flex: 0 0 100% !important;
+  }
+}
+
+/* ==========================================================================
+   SINGLE HERO SECTION — hide the PageFly mobile-only duplicate slider
+   so only hero-slider-standalone shows across all devices
+   ========================================================================== */
+#shopify-section-template--17202423333036__pagefly_section_XyFKPd {
+  display: none !important;
+}
+
+/* Make the custom hero slider fully responsive on small screens */
+@media (max-width: 767px) {
+  .hero-slider-standalone {
+    height: 260px !important;
+    border-radius: 6px !important;
+  }
+
+  .hero-slider-standalone .hero-caption {
+    top: 24px !important;
+    left: 20px !important;
+    right: 20px !important;
+  }
+
+  .hero-slider-standalone .hero-caption-title {
+    font-size: 22px !important;
+    margin-bottom: 14px !important;
+  }
+
+  .hero-slider-standalone .hero-btn {
+    font-size: 12px !important;
+    padding: 9px 22px !important;
+  }
+
+  .hero-slider-standalone .hero-arrows {
+    bottom: 12px !important;
+    right: 12px !important;
+  }
+
+  .hero-slider-standalone .hero-arrow-btn {
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 13px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-slider-standalone {
+    height: 200px !important;
+  }
+
+  .hero-slider-standalone .hero-caption-title {
+    font-size: 18px !important;
+  }
+}
+
+/* ==========================================================================
+   PRODUCT DETAIL PAGE — RESPONSIVE FIXES
+   Fixes cramped info column, overflowing actions row on mobile
+   ========================================================================== */
+
+/* Tablet: reduce product detail padding */
+@media (max-width: 991px) {
+  .product-single-info-col {
+    padding-left: 20px !important;
+  }
+
+  .product-single-title {
+    font-size: 22px !important;
+  }
+
+  .product-single-price {
+    font-size: 22px !important;
+  }
+
+  .product-single-image-box {
+    min-height: 320px !important;
+  }
+}
+
+/* Mobile: stack info panel cleanly below the image */
+@media (max-width: 767px) {
+  .product-single-row {
+    margin-top: 16px !important;
+    margin-bottom: 30px !important;
+  }
+
+  .product-single-info-col {
+    padding-left: 0 !important;
+    padding-top: 20px !important;
+  }
+
+  .product-single-image-box {
+    min-height: 260px !important;
+    padding: 16px !important;
+    border-radius: 8px !important;
+  }
+
+  .product-single-main-img {
+    max-height: 240px !important;
+  }
+
+  .product-single-title {
+    font-size: 20px !important;
+  }
+
+  .product-single-price {
+    font-size: 20px !important;
+  }
+
+  .product-single-old-price {
+    font-size: 15px !important;
+  }
+
+  /* Wrap qty + add-to-cart button so they don't overflow */
+  .product-single-actions {
+    flex-wrap: wrap !important;
+    gap: 10px !important;
+  }
+
+  .product-single-addtocart-btn {
+    flex: 1 1 100% !important;
+    width: 100% !important;
+  }
+
+  .product-single-buynow-btn {
+    font-size: 14px !important;
+    height: 44px !important;
+  }
+
+  .product-guarantee-box {
+    padding: 12px 14px !important;
+  }
+}
+
+/* Small phones: further scale down */
+@media (max-width: 480px) {
+  .product-single-title {
+    font-size: 18px !important;
+  }
+
+  .product-single-price {
+    font-size: 18px !important;
+  }
+
+  .product-single-actions {
+    gap: 8px !important;
+  }
+
+  .product-single-qty-wrapper {
+    height: 42px !important;
+  }
+
+  .product-single-addtocart-btn {
+    height: 42px !important;
+    font-size: 14px !important;
+  }
+
+  .product-single-buynow-btn {
+    height: 42px !important;
+    font-size: 13px !important;
+  }
+}
+
+/* ==========================================================================
+   CART TOAST — RESPONSIVE FIX
+   Keeps toast within screen bounds on small phones
+   ========================================================================== */
+@media (max-width: 575px) {
+  .cart-toast {
+    bottom: 16px !important;
+    right: 16px !important;
+    left: 16px !important;
+    font-size: 13px !important;
+    padding: 11px 16px !important;
+    border-radius: 8px !important;
+  }
+}
+
+/* ==========================================================================
+   HERO CAPTION — MID-SIZE PHONES (480px – 767px gap fix)
+   ========================================================================== */
+@media (max-width: 600px) and (min-width: 481px) {
+  .hero-slider-standalone .hero-caption-title {
+    font-size: 20px !important;
+  }
+
+  .hero-slider-standalone .hero-btn {
+    font-size: 11px !important;
+    padding: 8px 18px !important;
+  }
+}
+
+/* ==========================================================================
+   GENERAL MOBILE POLISH
+   Prevents any horizontal scroll, ensures images never overflow
+   ========================================================================== */
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 767px) {
+  /* Prevent tables from blowing out the layout */
+  table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Cart drawer slightly tighter header on small screens */
+  .cart-drawer-header {
+    padding: 14px 18px !important;
+  }
+
+  .cart-drawer-items {
+    padding: 0 18px !important;
+  }
+
+  .cart-drawer-footer {
+    padding: 16px 18px !important;
+  }
+
+  /* Region modal safe padding on small phones */
+  .region-modal {
+    padding: 24px 18px !important;
   }
 }

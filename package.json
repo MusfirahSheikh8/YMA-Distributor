@@ -1,0 +1,9 @@
+{
+  "name": "yma-distributor",
+  "version": "1.0.0",
+  "description": "YMA Distributor Website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

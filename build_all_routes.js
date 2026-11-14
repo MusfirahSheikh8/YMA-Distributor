@@ -97,16 +97,12 @@ const categoriesSidebarHtml = `
 function getHeroSliderHtml(prefix) {
   return `
 <div class="hero-slider-standalone">
-  <div class="hero-slide active" style="background-image: url('${prefix}images/img_2.jpg');"></div>
-  <div class="hero-slide" style="background-image: url('${prefix}images/img_3.jpg');">
-    <div class="hero-caption">
-      <div class="hero-caption-title">$30 OFF $100+</div>
-      <a href="/collections/all" class="hero-btn">SHOP NOW!</a>
+  <div class="hero-slide active" style="background-image: url('${prefix}images/img_2.jpg'); cursor: pointer;" onclick="window.location.href='/collections/all'"></div>
+  <div class="hero-slide" style="background-image: url('${prefix}images/img_3.jpg'); cursor: pointer;" onclick="window.location.href='/collections/all'">
     </div>
-  </div>
   <div class="hero-arrows">
-    <button class="hero-arrow-btn" onclick="prevHeroSlide()" aria-label="Previous">❮</button>
-    <button class="hero-arrow-btn" onclick="nextHeroSlide()" aria-label="Next">❯</button>
+    <button class="hero-arrow-btn" onclick="event.stopPropagation(); prevHeroSlide()" aria-label="Previous">❮</button>
+    <button class="hero-arrow-btn" onclick="event.stopPropagation(); nextHeroSlide()" aria-label="Next">❯</button>
   </div>
 </div>
 `;

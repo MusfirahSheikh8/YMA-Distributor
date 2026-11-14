@@ -1,5 +1,23 @@
 {
   "version": 2,
-  "cleanUrls": true
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/collections/:category/products/:slug",
+      "destination": "/products/:slug.html"
+    },
+    {
+      "source": "/collections/:category",
+      "destination": "/collections/:category.html"
+    },
+    {
+      "source": "/products/:slug",
+      "destination": "/products/:slug.html"
+    },
+    {
+      "source": "/pages/:page",
+      "destination": "/pages/:page.html"
+    }
+  ]
 }
-

@@ -1167,3 +1167,35 @@ footer .tt-footer-custom .tt-col-left .tt-col-item {
   opacity: 0 !important;
 }
 
+/* ==========================================================================
+   HIDE CURRENCY, WISHLIST, AND COMPARE ACROSS ALL PAGES & HEADERS
+   Keep Checkout / Cart intact
+   ========================================================================== */
+.tt-wishlist,
+.tt-compare,
+.single-currency-box,
+.tt-desctop-parent-multi,
+.tt-multi-obj,
+.tt-stuck-parent-multi,
+.header-icon-with-text.tt-wishlist,
+.header-icon-with-text.tt-compare,
+.header-icon-with-text.tt-wishlist *,
+.header-icon-with-text.tt-compare *,
+.single-currency-box *,
+.tt-desctop-parent-multi *,
+.tt-multi-obj *,
+.tt-stuck-parent-multi *,
+.tt-account .tt-dropdown-inner ul li a[href*="/pages/wishlist"],
+.tt-account .tt-dropdown-inner ul li a[href*="/pages/compare"],
+.tt-account .tt-dropdown-inner ul li:has(a[href*="/pages/wishlist"]),
+.tt-account .tt-dropdown-inner ul li:has(a[href*="/pages/compare"]) {
+  display: none !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  pointer-events: none !important;
+}
+
+

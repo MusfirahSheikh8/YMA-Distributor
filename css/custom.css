@@ -3,6 +3,43 @@
    Pure Vanilla CSS - 100% Valid Syntax - Fully Responsive
    ========================================================================== */
 
+/* ==========================================================================
+   PRODUCT IMAGE FIX - Force images to show in collection pages
+   span.tt-img uses JS-based padding-bottom for aspect ratio which fails locally
+   This override ensures images always have a visible height
+   ========================================================================== */
+.tt-product .tt-image-box span.tt-img,
+.tt-product .tt-image-box .tt-img {
+  display: block !important;
+  min-height: 220px !important;
+  height: auto !important;
+  overflow: visible !important;
+  position: relative !important;
+  padding-bottom: 0 !important;
+  background: #f8f8f8;
+}
+
+.tt-product .tt-image-box span.tt-img img,
+.tt-product .tt-image-box .tt-img img {
+  display: block !important;
+  width: 100% !important;
+  height: 220px !important;
+  object-fit: contain !important;
+  object-position: center !important;
+  position: relative !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  max-width: 100% !important;
+  background: #f8f8f8;
+  padding: 10px;
+}
+
+/* Make sure the image wrapper has visible size */
+.tt-product .tt-image-box {
+  min-height: 220px !important;
+}
+
+
 :root {
   --primary-green: #176B70;
   --primary-hover-yellow: #F29B50;
@@ -278,10 +315,11 @@ a {
 }
 
 .hero-slider-standalone .hero-caption {
-  position: absolute;
-  top: 60px;
-  left: 60px;
-  z-index: 5;
+  display: none !important;
+}
+
+.hero-slider-standalone .hero-slide {
+  cursor: pointer;
 }
 
 .hero-slider-standalone .hero-caption-title {

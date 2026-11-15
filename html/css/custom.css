@@ -1199,3 +1199,31 @@ footer .tt-footer-custom .tt-col-left .tt-col-item {
 }
 
 
+
+/* ==========================================================================
+   HIDE SIGN IN, REGISTER, AND CONTACT FROM ALL HEADERS & MENUS
+   (Both Desktop & Mobile) - Keep Checkout Intact
+   ========================================================================== */
+.h-account-details,
+.tt-desctop-menu li a[href*="/pages/contact"],
+.tt-desctop-menu li:has(a[href*="/pages/contact"]),
+.mobile-main-menu li a[href*="/pages/contact"],
+.mobile-main-menu li:has(a[href*="/pages/contact"]),
+.panel-menu li a[href*="/pages/contact"],
+.panel-menu li:has(a[href*="/pages/contact"]),
+.tt-account .tt-dropdown-inner ul li a[href*="customer_authentication"],
+.tt-account .tt-dropdown-inner ul li a[href*="account?locale="],
+.tt-account .tt-dropdown-inner ul li:has(a[href*="customer_authentication"]),
+.tt-account .tt-dropdown-inner ul li:has(a[href*="account?locale="]),
+.mobile-main-menu li a[href*="customer_authentication"],
+.mobile-main-menu li a[href*="account?locale="],
+.mobile-main-menu li:has(a[href*="customer_authentication"]),
+.mobile-main-menu li:has(a[href*="account?locale="]) {
+  display: none !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  pointer-events: none !important;
+}

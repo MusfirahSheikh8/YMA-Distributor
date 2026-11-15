@@ -61,6 +61,12 @@ const server = http.createServer((req, res) => {
       return res.end(JSON.stringify({ status: 'success', item_count: 0, items: [] }));
     }
 
+    // Special handler for /collections or /collections/
+    if (pathname === '/collections' || pathname === '/collections/') {
+      if (await tryServeFile(path.join(ROOT, 'collections', 'all.html'))) return;
+      if (await tryServeFile(path.join(ROOT, 'html', 'collections', 'all.html'))) return;
+    }
+
     // 1. Try exact file path
     if (await tryServeFile(filePath)) return;
 

@@ -4,6 +4,34 @@
   "trailingSlash": false,
   "rewrites": [
     {
+      "source": "/checkout",
+      "destination": "/checkout.html"
+    },
+    {
+      "source": "/cart",
+      "destination": "/cart.html"
+    },
+    {
+      "source": "/cart/add.js",
+      "destination": "/cart.json"
+    },
+    {
+      "source": "/cart/change.js",
+      "destination": "/cart.json"
+    },
+    {
+      "source": "/cart/clear.js",
+      "destination": "/cart.json"
+    },
+    {
+      "source": "/cart/update.js",
+      "destination": "/cart.json"
+    },
+    {
+      "source": "/cart.js",
+      "destination": "/cart.json"
+    },
+    {
       "source": "/collections/:category/products/:slug",
       "destination": "/products/:slug.html"
     },

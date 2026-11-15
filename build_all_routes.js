@@ -129,6 +129,15 @@ function processHtmlContent(rawHtml, depth = 0, isHome = false) {
   html = html.replaceAll('MainStreetPet', 'YMADistributor');
 
 
+  // Clean up copyright year
+  html = html.replaceAll('&copy; 2024. All Rights Reserved', '&copy; 2026. All Rights Reserved');
+  html = html.replaceAll('© 2024. All Rights Reserved', '© 2026. All Rights Reserved');
+  html = html.replaceAll('&copy; 2024.', '&copy; 2026.');
+  html = html.replaceAll('2024. All Rights Reserved', '2026. All Rights Reserved');
+
+  // Remove modalAddToCartError
+  html = html.replace(/<div class="modal fade" id="modalAddToCartError"[\s\S]*?<\/div>\s*<\/div>\s*<\/div>\s*<\/div>/gi, '');
+
   // 1. Fix protocol-relative URLs
   html = html.replace(/(src|href|srcset|data-src|data-lazyload|data-thumb)=["']\/\/([a-zA-Z0-9_\-\.]+)/g, (match, attr, host) => {
     return `${attr}="https://${host}`;
@@ -463,14 +472,15 @@ for (const d of dirsToEnsure) {
 }
 
 console.log('Generating index.html (Homepage)...');
-const rawIndex = fs.readFileSync(path.join(baseDir, 'original_index.html'), 'utf8');
-
-// 1. Root index.html (depth = 0)
-const indexRoot = processHtmlContent(rawIndex, 0, true);
-fs.writeFileSync(path.join(baseDir, 'index.html'), indexRoot, 'utf8');
-
-// 2. html/index.html (depth = 1)
-const indexHtmlFolder = processHtmlContent(rawIndex, 1, true);
+const currentIndexHtml = fs.readFileSync(path.join(baseDir, 'index.html'), 'utf8');
+let indexHtmlFolder = currentIndexHtml
+  .replaceAll('href="css/', 'href="../css/')
+  .replaceAll('src="js/', 'src="../js/')
+  .replaceAll('src="images/', 'src="../images/')
+  .replaceAll('href="/images/', 'href="../images/')
+  .replaceAll('src="/images/', 'src="../images/')
+  .replaceAll('src="cart.js"', 'src="../cart.js"')
+  .replaceAll('href="cart.js"', 'href="../cart.js"');
 fs.writeFileSync(path.join(baseDir, 'html', 'index.html'), indexHtmlFolder, 'utf8');
 
 console.log('Processed Homepage -> index.html and html/index.html');

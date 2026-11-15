@@ -1075,3 +1075,95 @@ video {
     padding: 24px 18px !important;
   }
 }
+
+/* ==========================================================================
+   FOOTER UNIFIED TEAL THEME & COPYRIGHT BAR FIX
+   Matches footer background completely to dark teal #176B70
+   White crisp text, removes any white strips or background cuts on mobile/desktop
+   ========================================================================== */
+footer,
+.for-footer-blocks,
+.tt-footer-col,
+.tt-footer-custom,
+.tt-footer-custom.tt-color-scheme-04,
+.tt-color-scheme-03,
+.tt-color-scheme-04 {
+  background: #176B70 !important;
+  background-color: #176B70 !important;
+  color: #ffffff !important;
+}
+
+footer .tt-collapse-title {
+  color: #ffffff !important;
+}
+
+footer .tt-list li a,
+footer a {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+footer .tt-list li a:hover,
+footer a:hover {
+  color: #F29B50 !important;
+}
+
+.tt-box-copyright,
+.tt-footer-custom .tt-box-copyright,
+footer .tt-box-copyright,
+footer .tt-footer-custom .tt-box-copyright {
+  background: #176B70 !important;
+  background-color: #176B70 !important;
+  color: #ffffff !important;
+  text-align: center !important;
+  padding: 16px 0 !important;
+  margin: 0 !important;
+  width: 100% !important;
+  font-size: 14px !important;
+}
+
+.tt-footer-custom,
+footer .tt-footer-custom {
+  background: #176B70 !important;
+  background-color: #176B70 !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+  padding: 10px 0 !important;
+}
+
+.tt-footer-custom .container,
+footer .tt-footer-custom .container {
+  background: transparent !important;
+}
+
+.tt-footer-custom .tt-row,
+footer .tt-footer-custom .tt-row {
+  background: transparent !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100% !important;
+}
+
+.tt-footer-custom .tt-col-left,
+footer .tt-footer-custom .tt-col-left {
+  width: 100% !important;
+  text-align: center !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.tt-footer-custom .tt-col-left .tt-col-item,
+footer .tt-footer-custom .tt-col-left .tt-col-item {
+  width: 100% !important;
+  text-align: center !important;
+  margin: 0 !important;
+}
+
+/* Hide Shopify Error Modal completely */
+#modalAddToCartError,
+.modal#modalAddToCartError {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+  opacity: 0 !important;
+}
+

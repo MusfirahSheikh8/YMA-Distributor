@@ -1,5 +1,5 @@
 /**
- * Main Street Pet Shop - Client-Side Cart & Store Interaction
+ * YMA Distributors - Client-Side Cart & Store Interaction
  * 100% Frontend - Vercel Ready
  */
 
@@ -9,14 +9,14 @@
   // 1. Cart State Management
   let cart = [];
   try {
-    cart = JSON.parse(localStorage.getItem('msp_cart')) || [];
+    cart = JSON.parse((localStorage.getItem('yma_cart') || localStorage.getItem('msp_cart'))) || [];
   } catch (e) {
     cart = [];
   }
 
   function saveCart() {
     try {
-      localStorage.setItem('msp_cart', JSON.stringify(cart));
+      localStorage.setItem('yma_cart', JSON.stringify(cart));
     } catch (e) {}
     updateCartUI();
   }
@@ -187,15 +187,25 @@
 
   // 4. Region Shipping Notice Modal (Checkout Block)
   window.openCheckoutNotice = function (e) {
-    if (e && e.preventDefault) e.preventDefault();
+    if (e) {
+      if (e.preventDefault) e.preventDefault();
+      if (e.stopPropagation) e.stopPropagation();
+      if (e.stopImmediatePropagation) e.stopImmediatePropagation();
+    }
     closeCartDrawer();
+    try {
+      if (window.jQuery && jQuery.fn && jQuery.fn.modal) {
+        jQuery('.modal').modal('hide');
+      }
+    } catch (err) {}
     const modal = document.getElementById('regionNoticeModal') || document.getElementById('regionUnavailableModal');
     if (modal) {
       modal.classList.add('active');
       modal.style.display = 'flex';
     } else {
-      alert('Shipping Notice: Shipping is currently not available in your region. Please check back later.');
+      alert('Shipping Notice: Shipping is currently not available in your region. Please check back later or contact customer support for updates.');
     }
+    return false;
   };
 
   window.closeCheckoutNotice = function () {
@@ -243,12 +253,22 @@
 
   // 7. Auto-Bind Product Cards and Checkout buttons
   function bindPageEvents() {
-    // Intercept all "ADD TO CART" buttons across any page template
+    // Intercept checkout triggers at top level with capture phase
     document.addEventListener('click', function (e) {
+      const checkoutTrigger = e.target.closest('a[href*="/checkout"], .btn-checkout, .cart-drawer-checkout-btn, button[name="checkout"], .ttmodalbtn[href*="/checkout"]');
+      if (checkoutTrigger) {
+        e.preventDefault();
+        e.stopPropagation();
+        if (e.stopImmediatePropagation) e.stopImmediatePropagation();
+        openCheckoutNotice(e);
+        return false;
+      }
+
       const addBtn = e.target.closest('.tt-btn-addtocart, .addtocart-item-js, .btn-custom-addtocart, button[name="add"], .thumbprod-button-bg');
       if (addBtn) {
         e.preventDefault();
         e.stopPropagation();
+        if (e.stopImmediatePropagation) e.stopImmediatePropagation();
 
         const card = addBtn.closest('.tt-product, .custom-prod-card, .tt-col-item, .product-item, [data-product-id]') || addBtn.parentElement;
         let title = 'Premium Pet Product';
@@ -274,7 +294,7 @@
         }
 
         addToCart({ id, title, price, img });
-        return;
+        return false;
       }
 
       // Header Cart triggers
@@ -282,17 +302,9 @@
       if (cartTrigger) {
         e.preventDefault();
         openCartDrawer();
-        return;
+        return false;
       }
-
-      // Checkout triggers
-      const checkoutTrigger = e.target.closest('a[href*="/checkout"], .btn-checkout, .cart-drawer-checkout-btn, button[name="checkout"]');
-      if (checkoutTrigger) {
-        e.preventDefault();
-        openCheckoutNotice(e);
-        return;
-      }
-    });
+    }, true);
 
     // Auto rotate hero slides every 5.5 seconds
     if (document.querySelectorAll('.hero-slide').length > 1) {

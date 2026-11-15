@@ -55,6 +55,12 @@ const server = http.createServer((req, res) => {
   }
 
   async function handle() {
+    // Intercept Shopify legacy cart endpoints
+    if (pathname.startsWith('/cart/') && pathname.endsWith('.js')) {
+      res.writeHead(200, { 'Content-Type': 'application/json' });
+      return res.end(JSON.stringify({ status: 'success', item_count: 0, items: [] }));
+    }
+
     // 1. Try exact file path
     if (await tryServeFile(filePath)) return;
 

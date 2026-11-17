@@ -61,6 +61,30 @@ const server = http.createServer((req, res) => {
       return res.end(JSON.stringify({ status: 'success', item_count: 0, items: [] }));
     }
 
+    // Special handler for /search
+    if (pathname === '/search' || pathname === '/search/') {
+      if (parsedUrl.searchParams.get('view') === 'json') {
+        const q = (parsedUrl.searchParams.get('q') || '').toLowerCase().trim();
+        let prods = [];
+        try {
+          prods = JSON.parse(fs.readFileSync(path.join(ROOT, 'search_products.json'), 'utf8'));
+        } catch (e) {}
+        const matches = q ? prods.filter(p => (p.title + ' ' + (p.category || '')).toLowerCase().includes(q)).slice(0, 10) : [];
+        res.writeHead(200, { 'Content-Type': 'application/json; charset=utf-8' });
+        return res.end(JSON.stringify({
+          results_count: matches.length,
+          results: matches.map(p => ({
+            title: p.title,
+            url: p.url,
+            thumbnail: p.image,
+            price: p.price
+          }))
+        }));
+      }
+      if (await tryServeFile(path.join(ROOT, 'search.html'))) return;
+      if (await tryServeFile(path.join(ROOT, 'html', 'search.html'))) return;
+    }
+
     // Special handler for /collections or /collections/
     if (pathname === '/collections' || pathname === '/collections/') {
       if (await tryServeFile(path.join(ROOT, 'collections', 'all.html'))) return;
